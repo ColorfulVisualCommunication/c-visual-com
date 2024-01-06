@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Products
+{% endblock  %}
+
+{% block content %}
+    <h1>Order Page</h1>
+    <p>This is the order page.</p>
+
+  <table class="table table-dark table-striped table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Barcode</th>
+        <th scope="col">Price</th>
+        <th scope="col">Options</th>
+      </tr>
+    </thead>
+    
+    {% for product in products %}
+    <tbody>
+      <tr>
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.barcode}}</td>
+        <td>{{product.price}}</td>
+        <td>
+          <button class="btn btn-sm btn-outline-secondary">More Info</button>
+          <button class="btn btn-sm btn-outline-secondary">Purchase</button>
+        </td>
+      </tr>
+    </tbody>
+    {% endfor %}
+
+  </table>
+
+{% endblock  %}
