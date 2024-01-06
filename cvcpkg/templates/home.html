@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    home page
+{% endblock  %}
+
+{% block content %}
+<div class="col-lg-12 px-4 py-5">
+  <div class="row flex-lg-row-reverse g-5 py-0 d-flex flex-sm-wrap align-items-center justify-content-center">
+    
+    <div class="col-7 col-sm-12 col-md-12 col-lg-7">
+      <img src="{{url_for('static', filename='img/landing_page.webp')}}" class="d-block mx-lg-auto img-fluid" alt="LANDING-IMG" width="700" height="500" loading="lazy">
+    </div>
+    <div class="col-lg-5 flex-sm-wrap flex-md-wrap align-items-center justify-content-center">
+      <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3"> Explore elite Branding, Graphics design, Web Solutions, and more with us</h1>
+      <p class="lead">In just one year since its founding in 2021, Colorful Visual Communication has ignited creativity, empowered brands, and innovated through dynamic design, web solutions, and seamless networking.</p>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <button type="button" class="btn btn-warning btn-md px-4 item" >Start your experience now<i class="fa-solid fa-terminal fa-lg arrow" aria-hidden="true"></i></button>
+       
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- portfolio -->
+<div class="row">
+  <div class="col-lg-12 mb-4">
+    <h1 class="display-6 text-center fw-bold text-body-emphasis">_Our Recent Work</h1>
+    <p class="lead text-center">Discover the power of our creativity in a glance—where every design tells a story of innovation and distinction.</p>
+  </div>  
+  
+  <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/black-brand.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4 "
+        alt=""
+      />
+    </div>
+
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/cvc-logo-m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="rollupbanner"
+      />
+    </div>
+ </div>
+
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/drivate-l-m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4 "
+        alt="Boat on Calm Water"
+      />
+    </div>
+
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/port-rollupbanner.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+      </div>
+  </div>
+
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <div class="bg-image hover-zoom">
+      <img
+         src="{{url_for('static', filename='img/poster_wall_m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4 "
+        alt="Boat on Calm Water"
+      />
+    </div>
+
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/GDS-brochure-f-m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  </div>
+
+    
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/gdsolar-bsc-m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4 "
+        alt="Boat on Calm Water"
+      />
+    </div>
+
+    <div class="bg-image hover-zoom">
+      <img
+        src="{{url_for('static', filename='img/EWA-brochure-m.png')}}"
+        class="w-100 shadow-1-strong rounded mb-4"
+        alt="Wintry Mountain Landscape"
+      />
+    </div>
+  </div>
+</div>
+<!-- portfolio -->
+
+
+{% endblock %}

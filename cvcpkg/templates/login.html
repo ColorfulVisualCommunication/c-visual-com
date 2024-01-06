@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    login page
+{% endblock  %}
+
+{% block content %}
+<div class="wrapper">
+        <div class="logo">
+            <img src="{{url_for('static', filename='img/cvc-logo.svg')}}" alt="Logo">
+        </div>
+        <div class="text-center mt-4 name">
+            We are excieted to have you here!
+        </div>
+        <form class="p-3 mt-3">
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="userName" id="userName" placeholder="Username">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="fas fa-key"></span>
+                <input type="password" name="password" id="pwd" placeholder="Password">
+            </div>
+            <button class="btn mt-3">Login</button>
+        </form>
+        <div class="text-center fs-6">
+            <a href="#">Forget password?</a> or <a href="{{url_for('register_page')}}">Register</a>
+        </div>
+    </div>
+{% endblock %}
