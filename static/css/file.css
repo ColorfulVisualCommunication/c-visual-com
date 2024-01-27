@@ -108,28 +108,19 @@ body {
   position: relative;
 }
 
-button {
-  border: 1px solid white;
-  background: white;
-  width: 100%;
+la-btn {
+  width: 50%;
   padding: 15px;
   border-radius: 3px;
-  color: blue;
   transition: background 0.5s ease;
 }
 
-button:hover {
-  background: blue;
-  color: white;
-  font-weight: normal;
-}
-
-button:hover i {
+la-btn:hover i {
   color: white;
 }
 
 i {
-  color: blue;
+  color:#ed3162;
   margin-left: 20px;
 }
 

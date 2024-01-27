@@ -49,10 +49,10 @@
   <body class="container-fluid">
     
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark " data-bs-theme="dark"">
-      <div class="container justify-content-space-between">
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+      <div class="container-fluid">
          <!-- logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand col-3 ms-5" href="#">
           <img src="{{url_for('static', filename='img/cvc-logo.svg')}}" 
             alt="Logo" 
             width="100px" 
@@ -105,18 +105,18 @@
            <!-- login/reg_buttons -->
           <form class="d-flex" role="search">
             <input class="form-control mr-sm-2 me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-light me-5 my-2 my-sm-0" type="submit">Search</button>
           </form>
           
           
           <form action="{{ url_for('login_page')}}">
             <button 
-              class="btn btn-outline-light me-2"
+              class="btn btn-outline-light mx-2 px-4 my-2"
               type="submit">login</button
           ></form>
           <form action="{{ url_for('register_page')}}">
               <button 
-                class="btn btn-warning me-2"
+                class="btn btn-warning mx-2 px-4 my-2"
                 type="submit">login</button
           ></form>
           
