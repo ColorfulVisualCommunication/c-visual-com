@@ -13,19 +13,18 @@
       <tr>
         <th scope="col">Id</th>
         <th scope="col">Name</th>
-        <th scope="col">Barcode</th>
         <th scope="col">Price</th>
-        <th scope="col">Options</th>
+        <th scope="col">Description</th>
       </tr>
     </thead>
     
-    {% for product in products %}
+    {% for products in products %}
     <tbody>
       <tr>
-        <td>{{product.id}}</td>
-        <td>{{product.name}}</td>
-        <td>{{product.barcode}}</td>
-        <td>{{product.price}}</td>
+        <td>{{products.id}}</td>
+        <td>{{products.name}}</td>
+        <td>{{products.currency}}{{products.price}}</td>
+        <td>{{products.description}}</td>
         <td>
           <button class="btn btn-sm btn-outline-secondary">More Info</button>
           <button class="btn btn-sm btn-outline-secondary">Purchase</button>

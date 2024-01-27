@@ -1,7 +1,7 @@
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 hidden = [".pythonlibs"]
-run = "python run.py"
+run = "python3 main.py"
 
 [nix]
 channel = "stable-23_05"
@@ -10,5 +10,5 @@ channel = "stable-23_05"
 language = "python3"
 
 [deployment]
-run = ["sh", "-c", "run = python run.py"]
+run = ["sh", "-c", "run = python3 main.py"]
 deploymentTarget = "cloudrun"
