@@ -1,7 +1,7 @@
 from flask import Flask, render_template, jsonify
 
 
-from cvcpkg.models import load_products_from_db, load_product_from_db
+from models import load_products_from_db, load_product_from_db
 
 
 app = Flask(__name__)
@@ -34,3 +34,6 @@ def login_page():
 @app.route("/register")
 def register_page():
     return render_template('register.html')
+
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', debug=True)
