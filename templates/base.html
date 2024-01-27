@@ -1,13 +1,22 @@
 <!doctype html>
 <html lang="en">
   <head>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="60">
+    <meta name="description" content="branding, captivating graphics and web solutions, networking,to provide innovative 
+      solutions tailored to digital needs.">
+    <meta name="keywords" content="website, web application, web developer, logo designing,
+      graphic designing, website design, build a website, web design, website designer,web designer">
+    <meta name="author" content="njoroge">
+ 
     <title>
-    {% block title %}
+      {% block title %}
       
-    {% endblock %}
+      {% endblock %}
     </title>
+    
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -24,41 +33,92 @@
       rel="stylesheet"
     />
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="{{ url_for('static', filename='css/file.css')}}" rel="stylesheet">
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+      crossorigin="anonymous"
+    >
+    <link 
+      href="{{ url_for('static', filename='css/file.css')}}" 
+      rel="stylesheet"
+    >
   </head>
+
+  
   <body class="container-fluid">
     
     <!-- navigation bar -->
-    <nav class="navbar navbar-expand-lg sticky-top p-3 bg-dark" data-bs-theme="dark"">
-      <div class="container-fluid">
-        <a class="navbar-brand col-12 col-lg-2" href="#">
-          <img src="{{url_for('static', filename='img/cvc-logo.svg')}}" alt="Logo" width="100px" height="auto" class="d-inline-block align-text-top">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark " data-bs-theme="dark"">
+      <div class="container justify-content-space-between">
+         <!-- logo -->
+        <a class="navbar-brand" href="#">
+          <img src="{{url_for('static', filename='img/cvc-logo.svg')}}" 
+            alt="Logo" 
+            width="100px" 
+            height="auto" 
+            class="d-inline-block align-text-top"
+        ></a>
         
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          
-          <ul class="nav col-12 col-lg-4 me-lg-auto mb-2 justify-content-center mb-md-0">
-            <li><a class="nav-link px-2 text-white active" aria-current="page" href="{{ url_for('home_page')}}">Home</a></li>
-            <li><a class="nav-link px-2 text-white" href="">Graphics Design</a></li>
-            <li><a class="nav-link px-2 text-white disabled" aria-disabled="true">Web App Design</a></li>
-            <li><a class="nav-link px-2 text-white" href="{{ url_for('product_page') }}">Products</a></li>
-            <li><a class="nav-link px-2 text-white" href="#">FAQs</a></li>
-            <li><a class="nav-link px-2 text-white" href="#">About</a></li>
+        <button class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#navbarToggler" 
+          aria-controls="navbarToggler" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+        ><span class="navbar-toggler-icon"></span
+        ></button>
+        
+        <div class="collapse navbar-collapse" id="navbarToggler">
+           <!-- nav_links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" 
+                aria-current="page" 
+                href="{{ url_for('home_page')}}">Home</a
+            ></li>
+            <li class="nav-item">
+              <a class="nav-link"
+                aria-disabled="true"
+                href="#">Graphics Design</a
+            ></li>
+            <li class="nav-item">
+              <a class="nav-link disabled" 
+                aria-disabled="true"
+                href="#">Web App Design</a
+            ></li>
+            <li class="nav-item">
+              <a class="nav-link" 
+                href="{{ url_for('product_page') }}">Products</a
+            ></li>
+            <li class="nav-item">
+            <a class="nav-link " 
+              href="#">About</a
+            ></li>
+            <li class="nav-item">
+              <a class="nav-link" 
+                href="#">FAQs</a
+              ></li>
           </ul>
-  
-          <form class="col-12 col-lg-2 mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
+        
+           <!-- login/reg_buttons -->
+          <form class="d-flex" role="search">
+            <input class="form-control mr-sm-2 me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
           </form>
           
-          <div class="text-end col-12 col-lg-4">
-            <a href="{{ url_for('login_page')}}"><button type="button" class="btn btn-outline-light">Login</button></a>
-            <a href="{{ url_for('register_page')}}"><button type="button" class="btn btn-warning">Register</button></a>
-          </div>
+          
+          <form action="{{ url_for('login_page')}}">
+            <button 
+              class="btn btn-outline-light me-2"
+              type="submit">login</button
+          ></form>
+          <form action="{{ url_for('register_page')}}">
+              <button 
+                class="btn btn-warning me-2"
+                type="submit">login</button
+          ></form>
           
         </div>
       </div>
@@ -215,7 +275,14 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.1.0/mdb.umd.min.js"
     ></script>
     
-    <script src="https://kit.fontawesome.com/2faec88548.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script 
+      src="https://kit.fontawesome.com/2faec88548.js" 
+      crossorigin="anonymous"
+    ></script>
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
