@@ -322,7 +322,12 @@ sectn .section-title {
 
 i {
   color:#ed3162;
-  margin: 20px;
+  margin: 5px;
+}
+
+.footer-icon {
+  color:#ed3162;
+  margin: 0 25px;
 }
 
 .arrow {
