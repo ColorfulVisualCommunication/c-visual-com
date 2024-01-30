@@ -12,7 +12,7 @@
       <img src="{{url_for('static', filename='img/landing_page.webp')}}" class="d-block mx-lg-auto img-fluid" alt="LANDING-IMG" width="700" height="500" loading="lazy">
     </div>
     <div class="col-lg-5 flex-sm-wrap flex-md-wrap align-items-center justify-content-center">
-      <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3 lead">
+      <h1 class="display-4 fw-bold  lh-1 mb-3 lead">
         Explore elite Branding, Graphics design, Web Solutions, and more with us
       </h1>
       <p class="lead">In just one year since its founding in 2021, Colorful 
@@ -20,8 +20,10 @@
         innovated through dynamic design, web solutions, and seamless networking.
       </p>
      
-        <button type="button" class="btn btn-warning la-btn my-5 py-2 px-2" ><b>Start your experience now</b><i class="fa-solid fa-terminal fa-lg arrow" aria-hidden="true"></i></button>
-       
+        <button type="button" class="btn btn-warning my-5 py-3 px-2" >
+          <b class="display-7 fw-bold my-5 mb-4 text-center lead">Start your experience now</b>
+          <i class="fa-solid fa-terminal fa-lg arrow" aria-hidden="true"></i
+        ></button>
        
       </div>
     </div>
@@ -32,84 +34,488 @@
 <!-- portfolio -->
 <div class="row">
   <div class="col-lg-12 mb-4">
-    <h1 class="display-6 text-center fw-bold my-5 lead">_Our Recent Work</h1>
-    <p class="lead text-center">Discover the power of our creativity in a glance—where every design tells a story of innovation and distinction.</p>
+    <h1 class="display-5 fw-bold my-5 mb-4 text-center lead">
+      _Our Recent Work
+    </h1>
+    <p class="lead text-center">
+      Discover the power of our creativity in a glance—where every design tells a story 
+      of innovation and distinction.
+    </p>
+    <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
   </div>  
   
-  <div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/black-brand.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4 "
-        alt=""
-      />
-    </div>
-
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/cvc-logo-m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="rollupbanner"
-      />
-    </div>
- </div>
-
   <div class="col-lg-3 mb-4 mb-lg-0">
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/drivate-l-m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4 "
-        alt="Boat on Calm Water"
-      />
+    <div class="content content-lg">
+      <a href="#">
+        <div class="content-overlay content-overlay-lg"></div>
+        <img src="{{url_for('static', filename='img/black-brand.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Black</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
     </div>
-
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/port-rollupbanner.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Wintry Mountain Landscape"
-      />
-      </div>
-  </div>
-
-  <div class="col-lg-3 mb-4 mb-lg-0">
-    <div class="bg-image hover-zoom">
-      <img
-         src="{{url_for('static', filename='img/poster_wall_m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4 "
-        alt="Boat on Calm Water"
-      />
-    </div>
-
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/GDS-brochure-f-m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Wintry Mountain Landscape"
-      />
+    <div class="content content-sm">
+      <a href="#">
+        <div class="content-overlay content-overlay-sm"></div>
+        <img src="{{url_for('static', filename='img/cvc-logo-m.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Colourful Visual Communication</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
     </div>
   </div>
-
     
   <div class="col-lg-3 mb-4 mb-lg-0">
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/gdsolar-bsc-m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4 "
-        alt="Boat on Calm Water"
-      />
+    <div class="content content-sm">
+      <a href="#">
+        <div class="content-overlay content-overlay-sm"></div>
+        <img src="{{url_for('static', filename='img/drivate-l-m.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Drivate</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
     </div>
-
-    <div class="bg-image hover-zoom">
-      <img
-        src="{{url_for('static', filename='img/EWA-brochure-m.png')}}"
-        class="w-100 shadow-1-strong rounded mb-4"
-        alt="Wintry Mountain Landscape"
-      />
+    <div class="content content-lg">
+      <a href="#">
+        <div class="content-overlay content-overlay-lg"></div>
+        <img src="{{url_for('static', filename='img/port-rollupbanner.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">RT-Smart Water Leakage Detection System</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
     </div>
   </div>
+
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <div class="content content-lg">
+      <a href="#">
+        <div class="content-overlay content-overlay-lg"></div>
+        <img src="{{url_for('static', filename='img/poster_wall_m.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Flashtech</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
+    </div>
+    <div class="content content-sm">
+      <a href="#">
+        <div class="content-overlay content-overlay-sm"></div>
+        <img src="{{url_for('static', filename='img/gemalocs.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Gemalocs</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col-lg-3 mb-4 mb-lg-0">
+    <div class="content content-sm">
+      <a href="#">
+        <div class="content-overlay content-overlay-sm"></div>
+        <img src="{{url_for('static', filename='img/GDS-brochure-f-m.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">GreatDeal Solar</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
+    </div>
+    <div class="content content-lg">
+      <a href="#">
+        <div class="content-overlay content-overlay-lg"></div>
+        <img src="{{url_for('static', filename='img/EWA-brochure-m.png')}}"
+          class="w-100 shadow rounded mb-4 portf-img"
+          alt=""
+        />
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Elite Waves Academy</h3>
+          <p class="content-text">Case Study<i class="fa-solid fa-terminal fa-lg arrow"></i></p>
+        </div>
+      </a>
+    </div>
+  </div>
+    
 </div>
 <!-- portfolio -->
 
+<!-- team -->
+<section class="sectn" id="team" class="pb-5">
+  <div class="text-center col-lg-12 ">
+    <h2 class="mb-4 display-5 fw-bold text-center">_Our Team</h2>
+    <p class="text-secondary mb-5 text-center lead fs-4">
+      We are a group of innovative, experienced, and proficient teams. You will love to 
+      collaborate with us.
+    </p>
+    <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+  </div>
+  <div class="container">
+    <div class="row">
+    <!-- Team member -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip" >
+          <div class="mainflip flip-0">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p>
+                    <img class="img-fluid" 
+                      src="{{url_for('static', filename='img/steve-pp.png')}}"  
+                      alt="card image"
+                  ></p>
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">
+                    Founder & CEO
+                  </p>
+                  <a href="https://www.fiverr.com/share/qb8D02" 
+                    class="btn btn-primary btn-sm"
+                    ><i class="fa fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">Full Stack Developer | Graphics Designer | Founder @ColorfulVisualCommunication | Tech, Design, and Innovation Enthusiast | AI & Robotics Explorer
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-facebook"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-twitter"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-skype"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-google"></i
+                                ></a>
+                            </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    <!-- Team member-end -->
 
+    <!-- Team member -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip" >
+          <div class="mainflip flip-0">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p>
+                    <img class="img-fluid" 
+                      src="{{url_for('static', filename='img/steve-pp.png')}}"  
+                      alt="card image"
+                  ></p>
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">
+                    Founder & CEO
+                  </p>
+                  <a href="https://www.fiverr.com/share/qb8D02" 
+                    class="btn btn-primary btn-sm"
+                    ><i class="fa fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">Full Stack Developer | Graphics Designer | Founder @ColorfulVisualCommunication | Tech, Design, and Innovation Enthusiast | AI & Robotics Explorer
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-facebook"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-twitter"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-skype"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-google"></i
+                                ></a>
+                            </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    <!-- Team member-end -->
+   
+    <!-- Team member -->
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="image-flip" >
+          <div class="mainflip flip-0">
+            <div class="frontside">
+              <div class="card">
+                <div class="card-body text-center">
+                  <p>
+                    <img class="img-fluid" 
+                      src="{{url_for('static', filename='img/steve-pp.png')}}"  
+                      alt="card image"
+                  ></p>
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">
+                    Founder & CEO
+                  </p>
+                  <a href="https://www.fiverr.com/share/qb8D02" 
+                    class="btn btn-primary btn-sm"
+                    ><i class="fa fa-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="backside">
+              <div class="card">
+                <div class="card-body text-center mt-4">
+                  <h4 class="card-title">Njoroge Stephen</h4>
+                  <p class="card-text">Full Stack Developer | Graphics Designer | Founder @ColorfulVisualCommunication | Tech, Design, and Innovation Enthusiast | AI & Robotics Explorer
+                  </p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-facebook"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-twitter"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-skype"></i
+                                ></a>
+                            </li>
+                    <li class="list-inline-item">
+                                <a class="social-icon text-xs-center" 
+                                  target="_blank" 
+                                  href="https://www.fiverr.com/share/qb8D02"
+                                  ><i class="fa fa-google"></i
+                                ></a>
+                            </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    <!-- Team member-end -->
+ 
+    </div>
+  </div>
+</section>
+<!-- team-end -->
+      
+<!--  getintouch  -->
+<div class="text-center text-white bg-body-tertiary mt-3 pt-3 mb-0" data-bs-theme="dark">
+  <!-- Section: Text -->
+  <section class="mb-4">
+    <h1 class="display-6 text-center fw-bold my-4 lead">
+      _Let's Shape Your Vision Together
+    </h1>
+    <p class="lead pt-2 pb-5">
+      Ready to transform your vision into reality? Reach out to 
+      us—to kickstart a collaborative journey where innovation 
+      meets excellence. Let's bring your ideas to life!
+    </p>
+    <hr class="w-50 mx-auto mb-5 mb-xl-9 border-light-subtle">
+  </section>
+  <!-- Section: Text -->
+
+  <!-- Section: Form -->
+  <section class="mb-4">
+    <form action="">
+      <!--Grid row-->
+      <div class="row d-flex justify-content-center">
+
+        <!--Grid column-->
+        <div class="col-auto">
+          <p class="pt-2">
+            <strong>Sign up for our newsletter</strong>
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-5 col-12">
+        <!-- Email input -->
+          <div class="bg-body-tertiary" data-bs-theme="dark""> 
+            <input class="form-control mr-sm-2 me-2" 
+              type="email" 
+              placeholder="Email" 
+              aria-label="Email">
+          </div>
+          
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-auto">
+          <!-- Submit button -->
+          <button type="submit" 
+            class="btn btn-outline-light mb-4"
+            >Subscribe</button
+        ></div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </form>
+  </section>
+  <!-- Section: Form -->
+
+  <!-- Section: Social media -->
+  <section class="mb-4">
+    <!-- Facebook -->
+    <a class="" href="https://www.facebook.com/ColorfulVisualCommunication/" role="button"
+      ><i class="fab fa-facebook-f"></i
+    ></a>
+
+    <!-- Twitter -->
+    <a class="" href="" role="button"
+      ><i class="fab fa-twitter"></i
+    ></a>
+
+    <!-- Google -->
+    <a class="" href="" role="button"
+      ><i class="fab fa-google"></i
+    ></a>
+
+    <!-- Instagram -->
+    <a class="" href="#!" role="button"
+      ><i class="fab fa-instagram"></i
+    ></a>
+
+    <!-- Linkedin -->
+    <a  class="" href="https://www.linkedin.com/in/stephen-njoroge-68b90b234" role="button"
+      ><i class="fab fa-linkedin-in"></i
+    ></a>
+
+    <!-- Github -->
+    <a class="" href="https://github.com/ColorfulVisualCommunication" role="button"
+      ><i class="fab fa-github"></i
+    ></a>
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links -->
+  <section class=" mb-4 pb-5">
+    <!--Grid row-->
+    <div class="row ">
+      <h5 class="text-uppercase my-5">Quick_Links</h5>
+      <!--Grid column-->
+      <div class="col-lg-4 col-sm-12 mb-4 mb-md-0">
+        <ul class="list-unstyled mb-0 ">
+          <li><a class="text-white text-decoration-none" 
+                href="#!">Web_design</a
+          ></li>
+          <li><a class="text-white text-decoration-none" 
+                href="#!">Graphics_design</a
+          ></li>
+          <li><a class="text-white text-decoration-none" 
+                href="#!">Branding</a
+          ></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-sm-12 mb-4 mb-md-0">
+        <ul class="list-unstyled mb-0">
+          <li><a class="text-white text-decoration-none" href="#!">About_Us</a></li>
+          <li><a class="text-white text-decoration-none" href="#!">Contact_Us</a></li>
+          <li><a class="text-white text-decoration-none" href="#!">Products</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-4 col-sm-12 mb-4 mb-md-0">
+        <ul class="list-unstyled mb-0">
+          <li><a class="text-white text-decoration-none" href="#!">Terms</a></li>
+          <li><a class="text-white text-decoration-none" href="#!">Privacy</a></li>
+          <li><a class="text-white text-decoration-none" href="#!">FAQ</a></li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </section>
+  <!-- Section: Links -->
+</div>
+<!--  getintouch-end  -->
 {% endblock %}
