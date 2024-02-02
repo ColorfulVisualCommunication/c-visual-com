@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 540">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: #478dcb;
+        font-family: Lato-Black, Lato;
+        font-size: 80.85px;
+        font-weight: 800;
+      }
+
+      .cls-4 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-8 {
+        fill: none;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-11 {
+        fill: #72c7ee;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="571.29" y1="168.52" x2="495.18" y2="75.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#478dcb"/>
+      <stop offset="1" stop-color="#37c5f2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="546.43" y1="159.83" x2="434.5" y2="233.78" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="636.22" y1="232.03" x2="512.53" y2="194.27" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37c5f2"/>
+      <stop offset="1" stop-color="#478dcb"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-8" width="1080" height="540"/>
+  <g>
+    <text class="cls-3" transform="translate(0 356.13)"><tspan class="cls-7" x="0" y="0">R</tspan><tspan class="cls-1" x="51.34" y="0">T</tspan><tspan x="92.49" y="0">-SMA</tspan><tspan class="cls-7" x="301.73" y="0">R</tspan><tspan x="353.07" y="0">T </tspan><tspan class="cls-6" x="417.11" y="0">W</tspan><tspan class="cls-4" x="498.04" y="0">A</tspan><tspan x="551.16" y="0">TER LEAK</tspan><tspan class="cls-5" x="919.59" y="0">A</tspan><tspan x="976.75" y="0">GE</tspan><tspan x="149.49" y="97.02">DETECTION SYSTEM</tspan></text>
+    <g>
+      <path class="cls-11" d="m635.46,120.63l-22.41,38.81-27.21,47.13-18.01,31.19c-12.37,21.43-43.3,21.43-55.67,0l-18.01-31.19-27.21-47.13-22.41-38.81c-12.37-21.43,3.1-48.22,27.84-48.22h135.25c24.74,0,40.21,26.79,27.84,48.22Z"/>
+      <path class="cls-10" d="m613.06,166.81l-22.92,39.71-.03.05h-50.11c15.99,0,28.96-12.96,28.96-28.96,0-5.23-1.39-10.14-3.82-14.38-.02-.03-.04-.06-.06-.1l-25.08-43.45h-45.85l18.01-31.19c12.37-21.43,43.3-21.43,55.67,0l18.01,31.19,27.21,47.13Z"/>
+      <path class="cls-2" d="m489.9,206.57l27.29,47.27h-44.81c-24.74,0-40.21-26.79-27.84-48.22l22.41-38.81,27.21-47.13h45.85l-25.12,43.51-25.02,43.32-.03.05h.06Z"/>
+      <path class="cls-9" d="m607.63,253.84h-90.44l-27.29-47.27-.03-.05,25.02-43.32c-2.44,4.25-3.84,9.17-3.84,14.42,0,16,12.96,28.96,28.96,28.96h50.16l-.03-.05,22.92-39.71,22.41,38.81c12.37,21.43-3.09,48.22-27.84,48.22Z"/>
+      <path class="cls-11" d="m568.96,177.61c0,16-12.97,28.96-28.96,28.96s-28.96-12.96-28.96-28.96c0-5.25,1.4-10.17,3.84-14.42l25.12-43.51,25.08,43.45s.04.07.06.1c2.43,4.24,3.82,9.14,3.82,14.38Z"/>
+    </g>
+  </g>
+</svg>
