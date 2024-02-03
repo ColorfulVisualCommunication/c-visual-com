@@ -10,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-  background: #f2f2f2;
+  background:#ecf3f9;
   font-size: 16px;
   cursor: crosshair
 }
@@ -282,7 +282,7 @@ body{
 
 /*---  navbar  ---*/
 .navbar{
-  background-color: rgba(242, 242, 242, 0.7) !important;	
+  background-color: rgba(236, 243, 249, 0.7) !important;	
 }
 .navbar .navbar-nav>li>a {
   font-size:20px; 
@@ -294,7 +294,7 @@ body{
     border-bottom: 1px solid#ed3162;
 }
 .dropdown-menu{
-   background-color: #f2f2f2 !important;
+   background-color: #ecf3f9 !important;
    border: none;
 }
 .navbar-toggler {
@@ -512,9 +512,6 @@ portf-img{
 /*---  portfolio-end  --*/
 
 /*---  team  --*/
-#team {
-    background: #eee !important;
-}
 
 .btn-primary:hover,
 .btn-primary:focus {
@@ -545,7 +542,7 @@ sectn .section-title {
 
 #team .card {
     border: none;
-    background: #ffffff;
+    background: #fff;
 }
 
 .image-flip:hover .backside,
