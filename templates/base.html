@@ -82,19 +82,11 @@
                 aria-current="page" 
                 href="{{ url_for('home_page')}}">Home</a
             ></li>
-            <li class="nav-item dropdown mx-2">
-              <a class="nav-link dropdown-toggle" 
-                href="#" role="button" 
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Services
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{{ url_for('product_page') }}">Design</a></li>
-                <li><a class="dropdown-item" href="#">Web Apps</a></li>
-                <li><a class="dropdown-item" href="#">Marketing</a></li>
-                <li><a class="dropdown-item" href="#">Digital Branding</a></li>
-              </ul>
-            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" 
+                aria-current="page" 
+                href="{{ url_for('product_page') }}">Services</a
+            ></li>
             
             <li class="nav-item dropdown mx-2">
               <a class="nav-link dropdown-toggle" 
@@ -103,7 +95,7 @@
                 Company
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{{ url_for('product_page') }}">About</a></li>
+                <li><a class="dropdown-item" href="">About</a></li>
                 <li><a class="dropdown-item" href="#">Strategy</a></li>
               </ul>
             </li>
