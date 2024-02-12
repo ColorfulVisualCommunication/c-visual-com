@@ -282,7 +282,7 @@ body{
 
 /*---  navbar  ---*/
 .navbar{
-  background-color: rgba(236, 243, 249, 0.7) !important;	
+  background-color: rgba(236, 243, 249, 0.9) !important;	
 }
 .navbar .navbar-nav>li>a {
   font-size:20px; 
@@ -299,7 +299,7 @@ body{
 }
 .navbar-toggler {
       margin:10px 0; 
-      color:#03A9F4;
+      color:#45bbeb;
 }
 
 #navbar{
@@ -340,7 +340,7 @@ body{
 .wrapper {
     max-width: 350px;
     min-height: 500px;
-    margin: 80px auto;
+    margin: 120px auto;
     padding: 40px 30px 30px 30px;
     background-color: #ecf0f3;
     border-radius: 15px;
