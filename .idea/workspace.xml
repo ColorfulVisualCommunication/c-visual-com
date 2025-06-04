@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21f7e1a9-f025-482f-8680-e85829c468b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.breakpoints" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.replit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/replit.nix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/cvc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/branding.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/branding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/logo-design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/logo-design.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/strategy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/strategy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/ui-ux.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/web-design.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/icons/web-design.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/EWA-brochure-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/GDS-brochure-f-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/black-brand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cvc-logo-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cvc-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/drivate-l-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/gdsolar-bsc-m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/gemalocs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/landing_page.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/port-rollupbanner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/poster_wall_m.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/steve-pp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/cvc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/borah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/cvc.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/drivate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/encomia.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/ewa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/flashtech.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/gdsolar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/gemalocs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/rockledge.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/rt-sys.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/svg/tripstars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/products.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2xGMpYQUhTVnXsMHH756MFRE1Bz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/njoroge/dev/github-personal/c-visual-com",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.122" />
+        <option value="bundled-python-sdk-880ecab49056-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.122" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21f7e1a9-f025-482f-8680-e85829c468b2" name="Changes" comment="" />
+      <created>1747560151248</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747560151248</updated>
+      <workItem from="1747560151249" duration="758000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
