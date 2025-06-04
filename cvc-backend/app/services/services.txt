@@ -1,0 +1,3 @@
+Services (app/services)
+Emailing, payment integration, etc. 
+These are helper modules you can call from controllers.

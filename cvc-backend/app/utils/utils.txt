@@ -1,0 +1,3 @@
+Utils (app/utils)
+Common utilities like password hashing, 
+JWT generation, validators, etc.

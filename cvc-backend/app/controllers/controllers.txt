@@ -1,0 +1,6 @@
+Controllers (app/controllers)
+These handle:
+    Business logic
+    Data validation
+    Database operations
+    Constructing the final response (sent to routes)
